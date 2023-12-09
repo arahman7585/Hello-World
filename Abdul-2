@@ -1,0 +1,15 @@
+import queue
+
+# Creating a Queue
+my_queue = queue.Queue()
+
+# Adding an element to the Queue
+element_to_add = "Hello World!"
+my_queue.put(element_to_add)
+
+# Pop a name from the Queue
+popped_name = my_queue.get()
+
+# Output
+print("Added name:", element_to_add)
+print("Popped name:", popped_name)
